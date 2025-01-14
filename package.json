@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "moment-timezone": "^0.5.45",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": ""
+  },
+  "name": "chatboot",
+  "version": "1.0.0",
+  "main": "chatbot.js",
+  "engines": {
+    "none": {
+      "version": "18"
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/preset-env": "^7.26.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
